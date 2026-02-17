@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1deb33b8-a4bd-4e78-b027-3e83014a313f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visuals.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/visuals.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_All_Models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Run_All_Models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;visuals&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Sc/Documents/GitHub/challenge-machine-learning&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1deb33b8-a4bd-4e78-b027-3e83014a313f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TabPFN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BPB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BPB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryLogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryLogisticRegression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visuals.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/visuals.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

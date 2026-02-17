@@ -5,12 +5,256 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1deb33b8-a4bd-4e78-b027-3e83014a313f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TabPFN.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BPB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BPB.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoML_AutoGluon.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AutoML_AutoGluon.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinaryLogisticRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryLogisticRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecisionTree_RandomForest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionTree_RandomForest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MLP.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TabPFN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TabPFN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/learner.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/learner.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r177_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/CatBoost_r9_BAG_L1/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesEntr_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/ExtraTreesGini_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMLarge_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBMXT_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/LightGBM_r131_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F1/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F1/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F2/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F2/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F3/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F3/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F4/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F4/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F5/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F5/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F6/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F6/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F7/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F7/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F8/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F8/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F1/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F1/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F2/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F2/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F3/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F3/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F4/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F4/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F5/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F5/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F6/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F6/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F7/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F7/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F8/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F8/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F1/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F1/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F2/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F2/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F3/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F3/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F4/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F4/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F5/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F5/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F6/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F6/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F7/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F7/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F8/model-internals.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F8/model-internals.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetFastAI_r191_BAG_L1/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/NeuralNetTorch_r79_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestEntr_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/RandomForestGini_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L3/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/WeightedEnsemble_L3/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F1/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F1/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F1/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F1/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F2/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F2/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F3/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F3/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F3/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F3/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F4/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F4/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F4/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F4/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F5/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F5/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F5/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F5/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F6/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F6/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F6/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F6/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F7/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F7/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F7/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F7/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F8/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F8/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F8/xgb.ubj" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/S1F8/xgb.ubj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/utils/oof.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/XGBoost_BAG_L2/utils/oof.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autogluon_models/models/trainer.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/autogluon_models/models/trainer.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boosting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/boosting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decision_tree_rf_updated.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decision_tree_rf_updated.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visuals2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/visuals2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +291,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sc/Documents/GitHub/challenge-machine-learning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "visuals",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Sc/Documents/GitHub/challenge-machine-learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sc\Documents\GitHub\challenge-machine-learning" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,10 +338,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/visuals2.ipynb</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

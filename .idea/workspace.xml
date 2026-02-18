@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fd5aa72-0f74-476f-82c0-351d5b2f1487" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalevalpred.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalevalpred.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knn_smote.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/knn_smote.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predictions.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/predictions_automl.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_All_Models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Run_All_Models.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.finalevalpred.executor": "Run",
-    "Python.main.executor": "Run",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Sc/Documents/GitHub/challenge-machine-learning",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.finalevalpred.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sc/Documents/GitHub/challenge-machine-learning&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sc\Documents\GitHub\challenge-machine-learning" />

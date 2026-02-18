@@ -1,30 +1,6 @@
 # Challenge coding session 2: Machine learning
 ## This is to Serve as a code base for our machine learing challenage coding Session
 ---
-# Tasks
----
-- 1 [ ]Develop a ML pipline that predects whetehr a part is defective (encode 1 as defective and 0 as node defective)
-- 2 Apply and compare models and related hyperparameters from the lecture:
-▪ k-Nearest Neighbor Classification (kNN)
-
-▪ Binary Logistic Regression
-
-▪ Decision Tree/ Random Forest
-
-▪ Boosting (e.g., GradientBoosting, XGBoost)
-
-▪ Neural Network (e.g., MLP).
-
-- Optional 
-▪ Do you have other ideas?
-
-▪ A friend of a friend said that you should always try AutoML tools such as AutoGluon, FLAML, and Optuna.
-
-▪ A former engineer came up with the idea of using the transformer-based approach, TabPFN, for classification. Find out more about TabPFN
-and how it can be applied to this use case. Sources: GitHub, Paper, python-lib
-
-- should be able to explain the final pipeline and method!
-
 meanings of the column headers in the files
 SZx Shot Counter
 Date
@@ -43,3 +19,11 @@ HEx - Heating Energy Actual Value Last Cycle
 MPx - Motor Power Actual Value
 PPx - Embossing Position Actual Value
 ESPx-  Specific Total Energy Consumption
+
+
+OVERALL MODEL RANKING
+1. AutoML AutoGluon - our best model after final internal evaluation - F1 score with testing targets 0.93 / 1.00 but inconsistent
+2. Optimized MLP - tuned a lot and good result but 0.89 when testing
+3. Random Forest - needs a lot of tuning but overall best score without neural network
+
+To use models, use model_testing_pipeline with correct model and file paths.

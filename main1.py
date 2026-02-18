@@ -15,7 +15,7 @@ rel_path = "intermediate"
 
 dataset = pd.read_csv(os.path.join(script_dir, rel_path, "CLEAN_eval_set_1_no_target.csv"))
 
-knn_model = joblib.load('knn_smote.pkl')
+knn_model = joblib.load('pkl/knn_smote.pkl')
 knn_features = ['ZSx [s]', 'ACPx [cm³]', 'ZDx [s]', 'ZEx [s]', 'GEx [kWh]', 'H16x [°C]', 'H10x [°C]']
 knn_input = dataset[knn_features]
 
@@ -38,6 +38,6 @@ X_test = aligned_data[knn_features]
 y_pred = knn_model.predict(X_test)
 
 # Compare
-print("--- KNN Model Performance ---")
+print("KNN Model Performance")
 print(f"Accuracy: {accuracy_score(y_true, y_pred)}")
 print(classification_report(y_true, y_pred))
